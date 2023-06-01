@@ -1,5 +1,5 @@
 <template>
-  <div class="menu w-[400px] bg-gray-100 p-4 sticky top-0 h-screen">
+  <div class="menu w-[350px] bg-blue-100 p-4 sticky top-0 h-screen">
     <NuxtLink to="/">Al inicio</NuxtLink>
     <div class="menu_item" v-for="link in links">
       <NuxtLink :to="link.href">{{ link.title }}</NuxtLink>
